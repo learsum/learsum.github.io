@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Learsum — programowanie i testowanie oprogramowania</title>
+  <meta name="description" content="Learsum to marka firmy Marek Szyszkiewicz Usługi Programistyczne. Programowanie i testowanie oprogramowania. Kontakt: learsum@gmail.com.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#05070f" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Learsum — programowanie i testowanie oprogramowania">
+  <meta property="og:description" content="Marka firmy Marek Szyszkiewicz Usługi Programistyczne.">
+  <meta property="og:locale" content="pl_PL">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Przejdź do treści</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="Learsum — początek strony">
+        <img src="assets/mark.png" alt="" width="28" height="28">
+        <span>Learsum</span>
+      </a>
+      <nav aria-label="Główna nawigacja">
+        <ul class="nav__links">
+          <li><a href="#uslugi">Usługi</a></li>
+          <li><a href="#wspolpraca">Współpraca</a></li>
+          <li><a href="#firma">Firma</a></li>
+          <li><a href="#en" lang="en">EN</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--small" href="mailto:learsum@gmail.com">Kontakt</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__content" data-hero>
+        <img class="hero__logo" src="assets/learsum-logo.png" alt="Logo Learsum" width="460" height="460">
+        <h1 class="hero__title">
+          <span class="line"><span>Programowanie</span></span>
+          <span class="line"><span>i&nbsp;<em class="grad">testowanie</em></span></span>
+          <span class="line"><span>oprogramowania.</span></span>
+        </h1>
+        <p class="hero__lead">Tworzę oprogramowanie i&nbsp;sprawdzam, czy działa tak, jak powinno.</p>
+        <div class="hero__cta">
+          <a class="btn" href="mailto:learsum@gmail.com">Napisz do mnie</a>
+          <a class="link-arrow" href="#uslugi">Zobacz usługi</a>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- SCROLL STATEMENT -->
+    <section class="statement" aria-label="Podejście">
+      <div class="statement__sticky">
+        <p class="statement__text" data-words>Dobre oprogramowanie to&nbsp;nie tylko kod. To&nbsp;kod, który został sprawdzony, zanim trafił do&nbsp;użytkowników.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="uslugi">
+      <div class="container">
+        <p class="eyebrow reveal">Usługi</p>
+        <h2 class="section__title reveal">Dwie rzeczy.<br>Zrobione porządnie.</h2>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14 7 24l10 10M31 14l10 10-10 10M27 9l-6 30"/></svg>
+            </div>
+            <h3>Programowanie</h3>
+            <p>Projektowanie i&nbsp;rozwój oprogramowania na&nbsp;zamówienie — od&nbsp;ustalenia wymagań po&nbsp;działające rozwiązanie.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M24 5 9 11v11c0 9.5 6.4 17.6 15 21 8.6-3.4 15-11.5 15-21V11L24 5Z"/><path d="m17 24 5 5 9-10"/></svg>
+            </div>
+            <h3>Testowanie</h3>
+            <p>Testowanie oprogramowania — wyszukiwanie błędów i&nbsp;sprawdzanie, czy produkt spełnia założenia, zanim zobaczą go użytkownicy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section section--tint" id="wspolpraca">
+      <div class="container">
+        <p class="eyebrow reveal">Współpraca</p>
+        <h2 class="section__title reveal">Prosto od&nbsp;pierwszej wiadomości.</h2>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Napisz</h3>
+            <p>Opisz krótko, czego potrzebujesz — e-mail wystarczy.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Ustalamy zakres</h3>
+            <p>Doprecyzowujemy wymagania, termin i&nbsp;warunki współpracy.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Realizacja i&nbsp;testy</h3>
+            <p>Oprogramowanie powstaje i&nbsp;jest sprawdzane przed oddaniem.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- COMPANY -->
+    <section class="section" id="firma">
+      <div class="container company">
+        <div class="company__mark reveal" aria-hidden="true">
+          <img src="assets/mark.png" alt="" width="256" height="256">
+        </div>
+        <div>
+          <p class="eyebrow reveal">Firma</p>
+          <h2 class="section__title reveal">Learsum to&nbsp;marka prawdziwej, jednoosobowej firmy.</h2>
+          <dl class="facts reveal">
+            <div><dt>Nazwa firmy</dt><dd>Marek Szyszkiewicz Usługi Programistyczne</dd></div>
+            <div><dt>Forma</dt><dd>Jednoosobowa działalność gospodarcza wpisana do&nbsp;CEIDG</dd></div>
+            <div><dt>Marka</dt><dd>Learsum</dd></div>
+            <div><dt>E-mail</dt><dd><a href="mailto:learsum@gmail.com">learsum@gmail.com</a></dd></div>
+            <div><dt>GitHub</dt><dd><a href="https://github.com/learsum" rel="me noopener">github.com/learsum</a></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="kontakt">
+      <div class="container">
+        <h2 class="contact__title reveal">Porozmawiajmy o&nbsp;Twoim projekcie.</h2>
+        <a class="contact__mail reveal" href="mailto:learsum@gmail.com">learsum@gmail.com</a>
+      </div>
+    </section>
+
+    <!-- EN -->
+    <section class="section section--tint" id="en" lang="en">
+      <div class="container narrow">
+        <p class="eyebrow reveal">English</p>
+        <h2 class="section__title reveal">Software development and&nbsp;testing.</h2>
+        <p class="reveal">Learsum is the trade name of <strong>Marek Szyszkiewicz Usługi Programistyczne</strong>, a&nbsp;sole proprietorship registered in&nbsp;the Polish Central Register of Business Activity (CEIDG). We build software and test it before it reaches users.</p>
+        <p class="reveal">Contact: <a href="mailto:learsum@gmail.com">learsum@gmail.com</a> · <a href="https://github.com/learsum" rel="noopener">github.com/learsum</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span data-year>2026</span> Marek Szyszkiewicz Usługi Programistyczne. Learsum jest marką tej firmy.</p>
+      <p>Ta strona nie używa plików cookie, formularzy ani narzędzi analitycznych.</p>
+    </div>
+  </footer>
+</body>
+</html>
